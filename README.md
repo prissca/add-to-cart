@@ -4,9 +4,9 @@
 Embers E-commerce website is an online where users can buy technological gadgets like laptops, smartphones and accessories 
 and even audio devices and workspace decors.
 ## features
-It has a mainpage which opens directly to a  fixed navigation bar and a caurosel of amaying products sub-divvided into
+It has a mainpage which opens directly to a  fixed navigation bar and a caurosel of amazing products sub-divided into
 categories.
-We used the dummyjson API t fetch the products.
+We used the dummyjson API to fetch the products.
 It also contains a login, signup page and also the cart section.
 
 
