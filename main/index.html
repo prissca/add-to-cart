@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Embers E-commerce</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/70dc777b15.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="nav-bar">
+                <h1 id="tittle">Embers</h1> <!--<img src="" alt="Logo">--> 
+                <a href="login.html" aria-label="User account"><i class="fa-solid fa-user fa-xl" style="color:#000000;"></i></a>
+                <a href="../add to cart/index.html" aria-label="Shopping cart"><i class="fa-solid fa-cart-shopping fa-xl" style="color:#000000;"></i></a>
+            </div>
+           
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+                <ul class="menu">
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="../add to cart/contact.html">Contact</a></li>
+                    <li><a href="#new-arrivals">New Arrivals</a></li>
+                    
+                    <li><a href="#best-sellers">Top-Sellers</a></li>
+                </ul>
+
+                <input type="search" placeholder="Search products, brands and categories" id="search-box" aria-label="Search products">
+            </nav>
+        </header>
+
+        <main>
+            <section id="overview">
+                <div class="slider">
+                    <div class="slide-track"> 
+                        <div class="slide">
+                            <img src="images/slide1.jpg" alt="Summer sale promotion" class="promo-img">
+                        </div>
+                        <div class="slide">
+                            <img src="images/slide2.jpg" alt="New tech arrivals" class="promo-img">
+                        </div>
+                        <div class="slide">
+                            <img src="images/slide3.jpg" alt="Limited time offers" class="promo-img">
+                        </div>
+                        <div class="slide">
+                            <img src="images/slide4.jpg" alt="Premium brands" class="promo-img">
+                        </div>
+                        <div class="slide">
+                            <img src="images/slide5.jpg" alt="Accessory deals" class="promo-img">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cats-section">
+                    <div class="cats-card">
+                        <img src="images/laptop.png" alt="Laptops and computers" class="cats-img">
+                        <h3>Laptops</h3>
+                        <button onclick="loadCategory('laptops')">
+                            <a href="#laptops" >Explore</a>
+
+                        </button>
+                    </div>       
+                    
+                    <div class="cats-card">
+                        <img src="images/samsung.png" alt="Phones and accessories" class="cats-img">
+                        <h3>Phones</h3>
+                        <button onclick="loadCategory('smartphones')">
+                            <a href="#phones">Explore</a>
+                        </button>
+                    </div>
+
+                    <div class="cats-card">
+                        <img src="images/bluetooth.png" alt="Audio and wearable tech" class="cats-img">
+                        <h3>Accessories</h3>
+                        <button onclick="loadCategory('accessories')">
+                            <a href="">Explore</a>
+                        </button>
+                    </div>
+
+                    <div class="cats-card">
+                        <img src="images/workspace.png" alt="Workspace decor" class="cats-img">
+                        <h3>Workspace</h3>
+                        <button onclick="loadCategory('workspace-decorations')">
+                            <a href="#workspace">Explore</a>
+                        </button>
+                    </div>
+                </div>
+            </section id="cat">
+
+
+
+            <div class="product-grid" id="product-container">
+                
+
+            </div>
+    
+    
+            
+            <!-- <section id="top-sellers">
+                <h2>Top Sellers</h2>
+                <div class="category">
+                    <h2>Laptops</h2>
+                   
+        <div class="category">
+            <h2>Laptops</h2>
+            <div id="laptops" class="product-container">
+
+
+            </div>
+
+        </div>
+
+
+        <div class="category">
+            <h2>Phones</h2>
+            <div id="phones" class="product-container">
+
+
+            </div>
+
+        </div>
+
+        <div class="category">
+            <h2>Wearable Tech</h2>
+            <div id="wearabletech" class="product-container">
+
+
+            </div>
+
+        </div>
+
+                </div>
+                
+            </section>
+
+            <section id="new-arrivals" class="new-arrivals">
+                <h2>New Arrivals</h2>
+                <div class="products"> 
+                    
+                </div>
+            </section>
+
+            <section id="brands" class="brands">
+                <h2>Brands</h2>
+                <div class="brand-grid">
+                    <div class="brand-card">
+                        <h3>Apple</h3>
+                        
+                    </div>
+                    <div class="brand-card">
+                        <h3>Dell</h3>
+                        
+                    </div>
+                    <div class="brand-card">
+                        <h3>Oraimo</h3>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+
+           -->
+        </main>
+
+        <footer>
+            <a href="#overview" class="back-to-top">Back to top</a>
+            <div class="footer-links">
+                <a href="../add to cart/contact.html">CONTACT US</a>
+                <a href="cookies.html">COOKIES NOTICE</a>
+                <a href="t&c.html">TERMS & CONDITIONS</a>
+                <a href="help">HELP CENTER</a>
+            </div>
+            <div class="copyright">
+                &copy; Embers E-commerce 2025. All rights reserved.
+            </div>
+        </footer>
+
+        <script src="products.js"></script>
+    </body>
+</html>

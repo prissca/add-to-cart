@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content ="width=device-width initial-scale=1.0">
+    
+    
+    
+    <title>Embers Login</title>
+    
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+
+        <input type="checkbox" name="backtohome" id="back" onclick="window.location.href='../main/index.html'"
+      style="background: red;" >
+       
+        <h4>Welcome Back to Embers Shop</h4>
+        <h3>
+        Login
+    </h3>
+
+        <form id="form">
+            <input type="email" name="" id="email" placeholder="Enter your e-mail" required>
+            <input type="password" name="" id="password" placeholder="Enter your password" required> 
+            <br>
+            <button type="submit">Login</button> <br>
+            <br>
+            Don't have an account?
+            <a href="signup.html"> Sign up</a>
+        </form>
+        
+    </div>
+    
+    <div class="message" id="message">
+        
+       
+                <div class="success" id="success" style="color: green;">
+                </div>
+                <div class="fail" id="fail" style="color: red;">
+                </div>
+                
+          
+        
+    </div>
+    
+    
+    <script src="">
+    
+        
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector("form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        let name = document.getelementById("name");
+        let username = document.getElementById("email").value.trim();
+        let email = document.getElementById("password").value.trim();
+        let successMessage = document.getElementById("success");
+        let failMessage = document.getElementById("fail");
+
+       
+        successMessage.innerText = "";
+        failMessage.innerText = "";
+
+       
+        if (username.length < 8 || username.length > 16) {
+            failMessage.innerText = "Username must be between 8 and 16 characters.";
+            return;
+        }
+        if (password.length < 12 || password.length > 16) {
+            failMessage.innerText = "Password must be between 12 and 16 characters.";
+            return;
+        }
+
+     
+        successMessage.innerText = "Login Successful!";
+    });
+    
+    
+  
+    
+    
+});
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
