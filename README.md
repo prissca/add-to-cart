@@ -12,9 +12,9 @@ It also contains a login, signup page and also the cart section.
 
 
 ## THE TEAM
-1.Advisor --
+1.Advisor --Chimmezirim
 2.  Obiefoka onyinye Rosemary
-3.
+3. Nwogu Victoria Chiamaka
 
 
 
