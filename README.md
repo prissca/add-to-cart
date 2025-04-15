@@ -15,6 +15,8 @@ It also contains a login, signup page and also the cart section.
 1.Advisor --Chimmezirim
 2.  Obiefoka onyinye Rosemary
 3. Nwogu Victoria Chiamaka
+4. Ilemona Patrick
+5. Okereke Benjamin
 
 
 
